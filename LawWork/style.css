@@ -19,6 +19,7 @@ body {
     font-size: 16px;
     background-image: url(images/back.jpg);
     background-repeat: no-repeat;
+    background-position: 50% 0;
 }
 
 .firstPage__header_wrapper {
@@ -87,9 +88,6 @@ body {
     position: relative;
     width: 391px;
 
-    margin-left: 321px;
-    padding-top: 107px;
-
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
@@ -99,8 +97,6 @@ body {
 .firstPage__main_startPage_textSecond {
     position: relative;
     width: 500px;
-    margin-left: 340px;
-    padding-top: 109px;
 
     font-weight: 600;
     font-size: 18px;
@@ -154,7 +150,8 @@ button {
 
 .firstPage__main_startPage {
     display: flex;
-    width: 100%;
+    margin: 0 auto;
+    max-width: 1280px;
 }
 
 h2 {
