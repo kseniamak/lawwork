@@ -17,8 +17,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    background-size: 1280px 790px;
     background-image: url(images/back.jpg);
+    background-repeat: no-repeat;
 }
 
 .firstPage__header_wrapper {
