@@ -42,25 +42,23 @@ body {
     text-align: center;
 }
 
-.firstPage__header_wrapper .firstPage__header_navMenu{
+.firstPage__header_navMenu{
     display: flex;
     color: #fff;
     list-style-type: none;
 }
 
-.firstPage__header_wrapper .firstPage__header_navMenu .firstPage__header_navMenuItem {
+.firstPage__header_navMenuItem {
     margin-left: 16px;
     margin-right: 16px;
 }
 
-.firstPage__header_wrapper nav .firstPage__header_navMenu .firstPage__header_navMenuItem a{
-    color: inherit;
+.firstPage__header_navMenuItem a{
     transition: all 100ms ease-in-out;
 }
 
-.firstPage__header_wrapper .firstPage__header_navMenu .firstPage__header_navMenuItem a:hover{
+.firstPage__header_navMenuItem a:hover{
     color: #7BCBFF;
-    transition: all 100ms ease-in-out;
 }
 
 .firstPage__header_phone{
@@ -81,7 +79,6 @@ body {
 
 .firstPage__header_townSelect {
     background-color:rgba(255,255,255,0);
-    color: inherit;
     font-size: 22px;
     font-weight: bold;
     line-height: 36px;
