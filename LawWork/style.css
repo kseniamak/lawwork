@@ -53,11 +53,11 @@ body {
     margin-right: 16px;
 }
 
-.firstPage__header_navMenuItem a{
+.firstPage__header_link {
     transition: all 100ms ease-in-out;
 }
 
-.firstPage__header_navMenuItem a:hover{
+.firstPage_header_link .firstPage__header_link:hover{
     color: #7BCBFF;
 }
 
@@ -84,8 +84,9 @@ body {
     line-height: 36px;
 }
 
-.firstPage__header_townSelect option{
+.firstPage__header_townSelect_option{
     background: rgba(0, 94, 163, 0.7);
+    color: white;
 }
 
 .firstPage {
