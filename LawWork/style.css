@@ -5,7 +5,7 @@
     height: 120px;
 }
 
-.firstPage_header, .firstPage__main_startPage {
+.firstPage__header, .firstPage__main_startPage {
     color: white;
 }
 
@@ -16,16 +16,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    color: #000000;
-    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    background-color: #ffffff;
-    line-height: 1.6;
-    margin: 0;
-    position: relative;
-    z-index: 0;
-    box-sizing: border-box;
-    -webkit-text-size-adjust: 100%;
 }
 
 .firstPage__header_wrapper {
@@ -57,7 +48,7 @@ body {
     transition: all 100ms ease-in-out;
 }
 
-.firstPage_header_link .firstPage__header_link:hover{
+.firstPage__header_link:hover{
     color: #7BCBFF;
 }
 
@@ -82,6 +73,7 @@ body {
     font-size: 22px;
     font-weight: bold;
     line-height: 36px;
+    color: white;
 }
 
 .firstPage__header_townSelect_option{
