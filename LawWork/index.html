@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бизнес Юрист - Спишем долги и кредиты, выплатим их сами</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css" /> <!--ОЧИСТКА СТИЛЕЙ БРАУЗЕРА-->
+</head>
+<body>
+    <div class="firstPage">
+    <header class="firstPage_header">
+        <div class="firstPage__header_wrapper">
+            <img class="firstPage__header_logo" alt="logo" src="images/logo.png"/>
+            <nav class="firstPage__header_nav"><!--FLEX-->
+                <ul class="firstPage__header_navMenu">
+                    <li class="firstPage__header_navMenuItem"><a href="#">Услуги</a></li>
+                    <li class="firstPage__header_navMenuItem"><a href="#">О нас</a></li>
+                    <li class="firstPage__header_navMenuItem"><a href="#">Отзывы и практика</a></li>
+                    <li class="firstPage__header_navMenuItem"><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="firstPage__header_phone">
+                <img alt="phone" src="images/whatsapp.png"/>
+                <h1 class="firstPage__header_phoneNumber">8 800 222 26 96</h1>
+            </div>
+            <div class="firstPage__header_town">
+                <img alt="townSelect" src="images/town.png"/>
+                <select name="town" class="firstPage__header_townSelect">
+                    <option value="Смоленск" selected>Смоленск</option>
+                    <option value="Москва">Москва</option>
+                    <option value="Санкт-Петербург">Санкт-Петербург</option>
+                    <option value="Волгоград">Волгоград</option>
+                    <option value="Сочи">Сочи</option>
+                </select>
+            </div>  
+        </div>
+    </header>
+    <main class="firstPage__main">
+    <div class="firstPage__main_wrapper"> <!--ПРОБЛЕМА С ЭТИМ ТЕГОМ, нужно ПОМЕСТИТЬ ЕГО НИЖЕ-->
+        <section class="firstPage__main_startPage">
+            <div class="firstPage__main_startPage_text">
+                <h1 class="firstPage__main_startPage_textFirst">Спишем долги или выплатим их за вас</h1>
+                <ul class="firstPage__main_startPage_textSecond">
+                    <li>Банкротство физических лиц</li>
+                    <li>Гарантия списания в договоре</li>
+                    <li>Списание кредитов и иных долгов</li>
+                    <li>100 офисов по всей России</li>
+                </ul>
+            </div>
+            <div class="firstPage__main_startPage_elements">
+                <img alt="man" src="images/man.png" class="firstPage__main_startPage_elementsImgMan"/>
+                <img alt="woman" src="images/woman.png" class="firstPage__main_startPage_elementsImgWoman"/>
+                <div class="firstPage__main_startPage_elementsConsultForm"> <!--FLEX-->
+                    <div class="firstPage__main_startPage_elementsConsultForm_name">Экспресс консультация юриста</div>
+                    <form action="">
+                    <div class="firstPage__main_startPage_elementsConsultForm_wrap">
+                        <div class="firstPage__main_startPage_elementsConsultForm_phone">
+                            <input type="text">
+                        </div>
+                        <div class="firstPage__main_startPage_elementsConsultForm_question">
+                            <textarea name="" id=""></textarea>
+                        </div>
+                        <div class="firstPage__main_startPage_elementsConsultForm_button">
+                            <button>Получить консультацию</button>
+                        </div>
+                        <div class="firstPage__main_startPage_elementsConsultForm_agree">
+                            Нажимая на кнопку, я соглашаюсь с условиями
+                            Политики конфиденциальности
+                        </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="firstPage__main_service">
+            <h2 class="firstPage__main_service_text">Предоставляем услуги</h2>
+            <div class="firstPage__main_service_tileWrap"><!--FLEX-->
+                <div class="firstPage__main_service_tileOne">
+                    <div class="firstPage__main_service_tileName">
+                        <a href="">Банкротство физических лиц</a>
+                    </div>
+                    <div class="firstPage__main_service_tileImg">
+                        <a href="">
+                            <img src="images/tileOne.png" alt="bankruptFiz">
+                        </a>
+                    </div>
+                </div>
+                <div class="firstPage__main_service_tileTwo">
+                    <div class="firstPage__main_service_tileName">
+                        <a href="">Банкротство юридических лиц</a>
+                    </div>
+                    <div class="firstPage__main_service_tileImg">
+                        <a href="">
+                            <img src="images/tileTwo.png" alt="bankruptUr">
+                        </a>
+                    </div>
+                </div>
+                <div class="firstPage__main_service_tileThree">
+                    <div class="firstPage__main_service_tileName">
+                        <a href="">Защита от коллекторов</a>
+                    </div>
+                    <div class="firstPage__main_service_tileImg">
+                        <a href="">
+                            <img src="images/tileThree.png" alt="protectionCollector">
+                        </a>
+                    </div>
+                </div>
+                <div class="firstPage__main_service_tileFour">
+                    <div class="firstPage__main_service_tileName">
+                        <a href="">Кредитные споры</a>
+                    </div>
+                    <div class="firstPage__main_service_tileImg">
+                        <a href="">
+                            <img src="images/tileFour.png" alt="creditArgument">
+                        </a>
+                    </div>
+                </div>
+                <div class="firstPage__main_service_tileFive">
+                    <div class="firstPage__main_service_tileName">
+                        <a href="">Семейные споры</a>
+                    </div>
+                    <div class="firstPage__main_service_tileImg">
+                        <a href="">
+                            <img src="images/tileFive.png" alt="familyArgument">
+                        </a>
+                    </div>
+                </div>
+                <div class="firstPage__main_service_tileSix">
+                    <div class="firstPage__main_service_tileName">
+                        <a href="">Судебная защита</a>
+                    </div>
+                    <div class="firstPage__main_service_tileImg">
+                        <a href="">
+                            <img src="images/tileSix.png" alt="protectionTrial">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="firstPage__main_review">
+        <h2>Отзывы и практика</h2>
+        <div class="firstPage__main_review_tileWrap"><!--FLEX-->
+            <div class="firstPage__main_review_tile">
+                <div class="firstPage__main_review_photo">
+                    <img src="images/reviewNikitina.jpg" alt="reviewNikitina">
+                </div>
+                <div class="firstPage__main_review_title">
+                    <div class="firstPage__main_review_date">18.02.2020</div>
+                    <div class="firstPage__main_review_name">Никитина Екатерина Владимировна</div>
+                    <div class="firstPage__main_review_caseNamber">Дело: A43-5102-2019</div>
+                </div>
+                <div class="firstPage__main_review_description">
+                    Я благодарна вам за помощь в моей непростой ситуации, признаюсь, 
+                    что боялась потерять все, что было в собственности у моего мужа из-за своих долгов. 
+                    Ваша честность в разъяснении решений моей проблемы и подкупила, стопроцентных гарантий никто не давал, но были шансы...
+                </div>
+                <div class="firstPage__main_review_solution">
+                    <a target="" href="">Посмотреть судебное решение</a><!--ПОСТАВИТЬ ТАРГЕТ _blank и Ссылку на документ PDF-->
+                </div>
+            </div>
+            <div class="firstPage__main_review_tile">
+                <div class="firstPage__main_review_photo">
+                    <img src="images/reviewKiryshkina.jpg" alt="reviewKiryshkina">
+                </div>
+                <div class="firstPage__main_review_title">
+                    <div class="firstPage__main_review_date">18.02.2020</div>
+                    <div class="firstPage__main_review_name">Кирюшкина Ольга Викторовна</div>
+                    <div class="firstPage__main_review_caseNamber">Дело: A43-5102-2019</div>
+                </div>
+                <div class="firstPage__main_review_description">
+                    Я благодарна вам за помощь в моей непростой ситуации, 
+                    признаюсь, что боялась потерять все, что было в собственности у моего мужа из-за своих долгов. 
+                    Ваша честность в разъяснении решений моей проблемы и подкупила, стопроцентных гарантий никто не давал, но были шансы...
+                </div>
+                <div class="firstPage__main_review_solution">
+                    <a target="" href="">Посмотреть судебное решение</a><!--ПОСТАВИТЬ ТАРГЕТ _blank и Ссылку на документ PDF-->
+                </div>
+            </div>
+            <div class="firstPage__main_review_tile">
+                <div class="firstPage__main_review_photo">
+                    <img src="images/reviewShirma.jpg" alt="reviewShirma">
+                </div>
+                <div class="firstPage__main_review_title">
+                    <div class="firstPage__main_review_date">18.02.2020</div>
+                    <div class="firstPage__main_review_name">Ширма Зоя Аршавировна</div>
+                    <div class="firstPage__main_review_caseNamber">Дело: A43-5102-2019</div>
+                </div>
+                <div class="firstPage__main_review_description">
+                    Я благодарна вам за помощь в моей непростой ситуации, признаюсь, что боялась потерять все, 
+                    что было в собственности у моего мужа из-за своих долгов.
+                    Ваша честность в разъяснении решений моей проблемы и подкупила, стопроцентных гарантий никто не давал, но были шансы...
+                </div>
+                <div class="firstPage__main_review_solution">
+                    <a target="" href="">Посмотреть судебное решение</a><!--ПОСТАВИТЬ ТАРГЕТ _blank и Ссылку на документ PDF-->
+                </div>
+            </div>
+        </div>
+            <div class="firstPage__main_review_more">
+                <a href="">Все отзывы</a>
+            </div>
+        </section>
+        <section class="firstPage__main_aboutUs">
+            <h2>СМИ о нас</h2>
+            <div class="firstPage__main_aboutUs_videoCarusel" id="video">
+                <div class="firstPage__main_aboutUs_videoCarusel_wrap"> <!--ДИВ ДЛЯ СЛАЙДЕРА--> <!--FLEX-->
+                    <div class="firstPage__main_aboutUs_videoCarusel_tile">
+                        <div class="firstPage__main_aboutUs_videoCarusel_pic">
+                            <a href="">
+                                <img src="images/video1.png" alt="video1">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="firstPage__main_aboutUs_videoCarusel_tile">
+                        <div class="firstPage__main_aboutUs_videoCarusel_pic">
+                            <a href="">
+                                <img src="images/video2.png" alt="video2">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="firstPage__main_aboutUs_videoCarusel_tile">
+                        <div class="firstPage__main_aboutUs_videoCarusel_pic">
+                            <a href="">
+                                <img src="images/video3.png" alt="video3">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--
+            <div class="firstPage__main_aboutUs_slider">
+                <button type="button" role="" class="">
+                    <span aria-label="Previous">‹</span>
+                </button>
+                <button type="button" role="" class="">
+                    <span aria-label="Next">›</span>
+                </button>
+            </div>
+        -->
+        </section>
+    </div>
+        <section class="firstPage__main_application">
+        <div class="firstPage__main_wrapper">
+            <div class="firstPage__main_application_title">Оставьте заявку на бесплатную консультацию ведущего юриста</div>
+            <div>
+                <img src="images/applicationWoman.png" alt="applicationWoman">
+            </div>
+            <form action="">
+                <div class="firstPage__main_application_formNumber">
+                    <input type="text">
+                </div>
+                <div class="firstPage__main_application_formName">
+                    <input type="text">
+                </div>
+                <div class="firstPage__main_application_formPersonal">Я согласен на обработку предоставленных данных</div>
+                <button value="send" class="">Отправить</button>
+            </form>
+        </div>
+        </section>
+        <section class="firstPage__main_example">
+            <div class="firstPage__main_wrapper">
+                <h2>Примеры завершенных дел наших Клиентов</h2>
+                <div class="firstPage__main_exampleWrap"><!--FLEX-->
+                    <div class="firstPage__main_exampleTile">
+                        <div class="firstPage__main_exampleTitle">
+                            <img src="images/ok.png" alt="ok">
+                            <p>Списан долг</p>
+                        </div>
+                        <div class="firstPage__main_examplePrice"></div>
+                        <div class="firstPage__main_exampleName">
+                            <span>Клиент &nbsp;</span><br>
+                            Мурашко Андрей Владимирович 1987 г.р.
+                        </div>
+                        <div class="firstPage__main_exampleSolution">
+                            <a href="">
+                                СМОТРЕТЬ РЕШЕНИЕ
+                            </a>
+                        </div>
+                    </div>
+                    <div class="firstPage__main_exampleTile">
+                        <div class="firstPage__main_exampleTitle">
+                            <img src="images/ok.png" alt="ok">
+                            <p>Списан долг</p>
+                        </div>
+                        <div class="firstPage__main_examplePrice"></div>
+                        <div class="firstPage__main_exampleName">
+                            <span>Клиент</span><br>
+                            Мурашко Андрей Владимирович 1987 г.р.
+                        </div>
+                        <div class="firstPage__main_exampleSolution">
+                            <a href="">
+                                СМОТРЕТЬ РЕШЕНИЕ
+                            </a>
+                        </div>
+                    </div>
+                    <div class="firstPage__main_exampleTile">
+                        <div class="firstPage__main_exampleTitle">
+                            <img src="images/ok.png" alt="ok">
+                            <p>Списан долг</p>
+                        </div>
+                        <div class="firstPage__main_examplePrice"></div>
+                        <div class="firstPage__main_exampleName">
+                            <span>Клиент</span><br>
+                            Мурашко Андрей Владимирович 1987 г.р.
+                        </div>
+                        <div class="firstPage__main_exampleSolution">
+                            <a href="">
+                                СМОТРЕТЬ РЕШЕНИЕ
+                            </a>
+                        </div>
+                    </div>
+                    <div class="firstPage__main_exampleTile">
+                        <div class="firstPage__main_exampleTitle">
+                            <img src="images/ok.png" alt="ok">
+                            <p>Списан долг</p>
+                        </div>
+                        <div class="firstPage__main_examplePrice"></div>
+                        <div class="firstPage__main_exampleName">
+                            <span>Клиент</span><br>
+                            Мурашко Андрей Владимирович 1987 г.р.
+                        </div>
+                        <div class="firstPage__main_exampleSolution">
+                            <a href="">
+                                СМОТРЕТЬ РЕШЕНИЕ
+                            </a>
+                        </div>
+                    </div>
+                    <div class="firstPage__main_exampleTile">
+                        <div class="firstPage__main_exampleTitle">
+                            <img src="images/ok.png" alt="ok">
+                            <p>Списан долг</p>
+                        </div>
+                        <div class="firstPage__main_examplePrice"></div>
+                        <div class="firstPage__main_exampleName">
+                            <span>Клиент</span><br>
+                            Мурашко Андрей Владимирович 1987 г.р.
+                        </div>
+                        <div class="firstPage__main_exampleSolution">
+                            <a href="">
+                                СМОТРЕТЬ РЕШЕНИЕ
+                            </a>
+                        </div>
+                    </div>
+                    <div class="firstPage__main_exampleTile">
+                        <div class="firstPage__main_exampleTitle">
+                            <img src="images/ok.png" alt="ok">
+                            <p>Списан долг</p>
+                        </div>
+                        <div class="firstPage__main_examplePrice"></div>
+                        <div class="firstPage__main_exampleName">
+                            <span>Клиент</span><br>
+                            Мурашко Андрей Владимирович 1987 г.р.
+                        </div>
+                        <div class="firstPage__main_exampleSolution">
+                            <a href="">
+                                СМОТРЕТЬ РЕШЕНИЕ
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="firstPage__main_mission"> <!--ДОЛЖНО БЫТЬ В ЦЕНТРЕ, а не СЛЕВА-->
+            <div class="firstPage__main_wrapper">
+                <div class="firstPage__main_missionTitle">
+                    Миссия Компании:<br>
+                    качественные и честные услуги с заботой о Клиенте!
+                </div>
+                <div class="firstPage__main_missionWrapper"><!--FLEX-->
+                    <div class="firstPage__main_missionTile"><!--FLEX-->
+                        <div class="firstPage__main_missionNumber">
+                            >2500
+                        </div>
+                        <div class="firstPage__main_missionText">
+                            успешных банкротств
+                        </div>
+                    </div>
+                    <div class="firstPage__main_missionTile"><!--FLEX-->
+                        <div class="firstPage__main_missionNumber">
+                            14
+                        </div>
+                        <div class="firstPage__main_missionText">
+                            лет успешной работы
+                        </div>
+                    </div>
+                    <div class="firstPage__main_missionTile"><!--FLEX-->
+                        <div class="firstPage__main_missionNumber">
+                            >100
+                        </div>
+                        <div class="firstPage__main_missionText">
+                            офисов по всей России
+                        </div>
+                    </div>
+                    <div class="firstPage__main_missionTile"><!--FLEX-->
+                        <div class="firstPage__main_missionNumber">
+                            500
+                        </div>
+                        <div class="firstPage__main_missionText">
+                            опытных юристов в штате
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="firstPage__main_map">
+            <h2>Наши офисы в Москве</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.579308036482!2d37.538061728488145!3d55.74843819263373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54bdd017303b9%3A0xd1f63f945a2450c2!2z0JzQvtGB0LrQstCwINCh0LjRgtC4!5e0!3m2!1sru!2sru!4v1638717403671!5m2!1sru!2sru" width="100%" height="632" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+        <section class="firstPage__main_applicationEnd">
+            <div class="firstPage__main_wrapper">
+                <div class="firstPage__main_applicationEnd_form">
+                    <h2 >Узнайте как списать долги прямо сейчас!</h2>
+                    <form action="">
+                        <div class="firstPage__main_applicationEnd_formWrapper">
+                            <div class="firstPage__main_applicationEnd_formTile">
+                                <input type="text"><!--ИМЯ-->
+                            </div>
+                            <div class="firstPage__main_applicationEnd_formTile">
+                                <input type="text"><!--ТЕЛЕФОН-->
+                            </div>
+                            <div class="firstPage__main_applicationEnd_formTile">
+                                <button value="send" class="">Отправить</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="firstPage__main_applicationEnd_social">
+                    <div class="firstPage__main_applicationEnd_socialTitle">
+                        Или напишите напрямую нам в мессенджер
+                    </div>
+                    <div class="firstPage__main_applicationEnd_social"><!--FLEX-->
+                        <div class="firstPage__main_applicationEnd_socialButton">
+                            <a href="">
+                                <div class="firstPage__main_applicationEnd_socialButton_click"><!--FLEX-->
+                                    <img src="images/whatsapp.png" alt="whatsapp">
+                                    <div>Написать в WhatsApp</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="firstPage__main_applicationEnd_socialButton">
+                            <a href="">
+                                <div class="firstPage__main_applicationEnd_socialButton_click"><!--FLEX-->
+                                    <img src="images/instagram.png" alt="instagram">
+                                    <div>Написать в instagram</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="firstPage__footer">
+        <div class="firstPage__footer_info">
+            <div class="firstPage__main_wrapper">
+                <div class="firstPage__footer_indent">
+                    <div class="firstPage__footer_info_wrap"><!--FLEX-->
+                        <div class="firstPage__footer_info_left">
+                            <div class="firstPage__footer_info_leftLogo">
+                                <a href="">
+                                    <img src="images/logo.png" alt="logo">
+                                </a>
+                            </div>
+                            <div class="firstPage__footer_info_leftSocial"><!--FLEX-->
+                                <div class="firstPage__footer_info_leftSocial_item">
+                                    <a href="vk.com">
+                                        <img src="images/vk.png" alt="vk">
+                                    </a>
+                                </div>
+                                <div class="firstPage__footer_info_leftSocial_item">
+                                    <a href="youtube.com">
+                                        <img src="images/youtube.png" alt="youtube">
+                                    </a>
+                                </div>
+                                <div class="firstPage__footer_info_leftSocial_item">
+                                    <a href="facebook.com">
+                                        <img src="images/facebook.png" alt="facebook">
+                                    </a>
+                                </div>
+                                <div class="firstPage__footer_info_leftSocial_item">
+                                    <a href="instagram.com">
+                                        <img src="images/instagram blue.png" alt="instagram">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="firstPage__footer_info_mid">
+                            <div class="firstPage__footer_info_service">
+                                <a href="">Банкротство юридических лиц</a>
+                                <a href="">Банкротство физических лиц</a>
+                                <a href="">Защита от коллекторов</a>
+                            </div>
+                            <div class="firstPage__footer_info_service">
+                                <a href="">Кредитные споры</a>
+                                <a href="">Семейные споры</a>
+                                <a href="">Судебная защита</a>
+                            </div>
+                            <div class="firstPage__footer_info_about"></div>
+                        </div>
+                        <div class="firstPage__footer_info_right">
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="firstPage__footer_about">
+            <div class="firstPage__main_wrapper">
+                <div class="firstPage__footer_indent">
+                    <div class="firstPage__footer_about_wrap"><!--FLEX-->
+                        <div class="firstPage__footer_aboutLeft">© «Бизнес-Юрист», 2007-2021</div>
+                        <div class="firstPage__footer_aboutMid">
+                            <a href="">Политика конфиденциальности</a>
+                        </div>
+                        <div class="firstPage__footer_aboutRight">Разработка - KSENIA MAKEEVA</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
