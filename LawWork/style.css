@@ -17,6 +17,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+    background-size: 1280px 790px;
+    background-image: url(images/back.jpg);
 }
 
 .firstPage__header_wrapper {
@@ -79,11 +81,6 @@ body {
 .firstPage__header_townSelect_option{
     background: rgba(0, 94, 163, 0.7);
     color: white;
-}
-
-.firstPage {
-    height: 790px;
-    background-image: url(images/back.jpg);
 }
 
 .firstPage__main_startPage_textFirst {
