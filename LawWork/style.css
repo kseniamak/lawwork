@@ -186,8 +186,8 @@ body {
     font-size: 12px;
 }
 
-.firstPage__main_startPage_elementsConsultForm_button {
-
+.firstPage__main_service {
+    max-width: 1920px;
 }
 
 button {
@@ -247,10 +247,9 @@ a {
 
 .firstPage__main_service_tileWrap {
     display: flex;
-    align-items: center;
     flex-flow: row wrap;
     justify-content: space-between;
-    width: 1297px;
+    margin-bottom: 40px;
 }
 
 .firstPage__main_service_tileOne {
@@ -303,6 +302,7 @@ a {
 .firstPage__main_aboutUs_videoCarusel_wrap {
     display: flex;
     justify-content: space-between;
+    max-width: 1920px;
 }
 
 .firstPage__main_applicationEnd {
@@ -318,14 +318,25 @@ a {
 
 .firstPage__main_review_tileWrap {
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-between;
+    margin-bottom: 40px;
+    max-width: 1220px;
 }
 
 .firstPage__main_review_tile {
-    background-image: url(images/tileReview.png);
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 22px;
+    margin-bottom: 5px;
+    margin-bottom: 20px;
+    padding: 30px;
+    width: 31%;
+    box-sizing: border-box;
+    border: 1px solid #CDD1D8;
+    border-radius: 4px;
+}
+
+.firstPage__main_review_photo {
+    padding: 0 20px 20px 0;
+    float: left;
 }
 
 .firstPage__main_startPage_text_list {
