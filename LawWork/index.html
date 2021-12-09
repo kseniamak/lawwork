@@ -12,106 +12,94 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;600&display=swap" rel="stylesheet"> <!--ПЕРЕПОДКЛЮЧИТЬ СТИЛИ-->
 </head>
 <body class="b">
-    <div class="b__header">
-        <div class="b__header_wrapper">
-           <div class="b__header_logo_wrapper">
+<div class="b-header">
+        <div class="b-header__wrapper">
+           <div class="b-header__logo-wrapper">
                <a href="">
-                   <img class="b__logo" alt="logo" src="images/logo.png"/>
+                   <img class="e-logo" alt="logo" src="images/logo.png"/> <!--element-->
                </a>
            </div> 
-           <div class="b__header_nav_wrapper">
-                <nav class="b__header_nav"><!--FLEX-->
-                    <ul class="b__header_nav_menu">
-                        <li class="b__header_nav_item"><a href="#" class="b__header_link">Услуги</a></li>
-                        <li class="b__header_nav_item"><a href="#" class="b__header_link">О нас</a></li>
-                        <li class="b__header_nav_item"><a href="#" class="b__header_link">Отзывы и практика</a></li>
-                        <li class="b__header_nav_item"><a href="#" class="b__header_link">Контакты</a></li>
-                        <li class="b__header_nav_item">
-                            <div class="b__header_phone">
-                                <div class="b__header_phone_item">
-                                    <a href="tel:88002222696" class="b__header_phone_image">
+           <div class="b-header_nav-wrapper">
+                <nav class="b-header_nav"><!--FLEX-->
+                    <ul class="b-header__nav-menu">
+                        <li class="b-header__nav-item"><a href="#" class="b-header__link">Услуги</a></li>
+                        <li class="b-header__nav-item"><a href="#" class="b-header__link">О нас</a></li>
+                        <li class="b-header__nav-item"><a href="#" class="b-header__link">Отзывы и практика</a></li>
+                        <li class="b-header__nav-item"><a href="#" class="b-header__link">Контакты</a></li>
+                        <li class="b-header__nav-item">
+                            <div class="b-header__phone">
+                                    <a href="tel:88002222696" class="b-header__phone-image">
                                         <img alt="phone" src="images/whatsapp.png"/>
                                     </a>
-                                </div>
-                                <div class="b__header_phone_item">
-                                    <a href="tel:88002222696" class="b__header_phone_number">
+                                    <a href="tel:88002222696" class="b-header__phone-number">
                                         8 800 222 26 96
                                     </a>
-                                </div>
                             </div>
                         </li>
                     </ul>
                 </nav>
            </div>
-            <div class="b__header_town_wrapper">
-                <div class="b__header_town">
+            <div class="b-header__town-wrapper">
+                <div class="b-header__town">
                     <img alt="town_select" src="images/town.png"/>
-                    <select name="town_select" class="b__header_town_select">
-                        <option value="Смоленск" selected class="b__header_town_option">Смоленск</option>
-                        <option value="Москва" class="b__header_town_option">Москва</option>
-                        <option value="Санкт-Петербург" class="b__header_town_option">Санкт-Петербург</option>
-                        <option value="Волгоград" class="b__header_town_option">Волгоград</option>
-                        <option value="Сочи" class="b__header_town_option">Сочи</option>
-                        <option value="Караганда" class="b__header_town_option">Караганда</option>
-                        <option value="Мухо..." class="b__header_town_option">Мухо...</option>
-                        <option value="Грозный" class="b__header_town_option">Грозный</option>
+                    <select name="town_select" class="b-header__town-select">
+                        <option value="Смоленск" selected class="b-header__town-option">Смоленск</option>
+                        <option value="Москва" class="b-header__town-option">Москва</option>
+                        <option value="Санкт-Петербург" class="b-header__town-option">Санкт-Петербург</option>
+                        <option value="Волгоград" class="b-header__town-option">Волгоград</option>
+                        <option value="Сочи" class="b-header__town-option">Сочи</option>
+                        <option value="Караганда" class="b-header__town-option">Караганда</option>
+                        <option value="Мухо..." class="b-header__town-option">Мухо...</option>
+                        <option value="Грозный" class="b-header__town-option">Грозный</option>
                     </select>
                 </div>  
             </div>
         </div>
-    </div>
-    <div class="b__startbox">
-        <div class="b__startbox_wrapper">
-                <div class="b__startbox_text">
-                    <h1>
-                        Спишем долги <br>или выплатим<br> их за вас
-                    </h1>
-                    <ul>
-                        <li class="b__startbox_text_item">Банкротство физических лиц</li>
-                        <li class="b__startbox_text_item">Гарантия списания в договоре</li>
-                        <li class="b__startbox_text_item">Списание кредитов и иных долгов</li>
-                        <li class="b__startbox_text_item">100 офисов по всей России</li>
+</div>
+    <div class="b-startbox">
+        <div class="b-startbox-wrapper">
+            <div class="b-startbox__text">
+                <h1>
+                    Спишем долги <br>или выплатим<br> их за вас
+                </h1>
+                    <ul class="b-startbox__list">
+                        <li class="b-startbox__text-item">Банкротство физических лиц</li>
+                        <li class="b-startbox__text-item">Гарантия списания в договоре</li>
+                        <li class="b-startbox__text-item">Списание кредитов и иных долгов</li>
+                        <li class="b-startbox__text-item">100 офисов по всей России</li>
                     </ul>
+            </div>
+            <div class="b-startbox__people">
+                <div class="b-startbox__people-man">
+                    <img alt="man" src="images/man.png"/>
                 </div>
-                <div class="b__startbox_people">
-                    <div class="b__startbox_people_man">
-                        <img alt="man" src="images/man.png"/>
-                    </div>
-                    <div class="b__startbox_people_woman">
-                        <img alt="woman" src="images/woman.png"/>
-                    </div>
+                <div class="b-startbox__people-woman">
+                    <img alt="woman" src="images/woman.png"/>
                 </div>
-                <div class="b__startbox_form"> <!--FLEX-->
-                    <div class="b__startbox_form_name">
-                        Экспресс <br>консультация<br> юриста
-                    </div>
-                    <form action="">
-                        <div class="b__startbox_form_wrap">
-                            <div class="b__startbox_form_item">
-                                <div class="b__startbox_form_phone">
-                                    <input type="text" class="b__phonebox">
-                                </div>
-                            </div>
-                            <div class="b__startbox_form_item">
-                                <div class="b__startbox_form_question">
-                                    <textarea name="" id=""></textarea>
-                                </div>
-                            </div>
-                            <div class="b__startbox_form_item">
-                                <div class="b__startbox_form_button">
-                                    <button class="b__button">Получить консультацию</button>
-                                </div>
-                            </div>
-                            <div class="b__startbox_form_item">
-                                <div class="b__startbox_form_agree">
-                                    Нажимая на кнопку, я соглашаюсь с условиями
-                                    Политики конфиденциальности
-                                </div>
+            </div>
+            <div class="b-startbox__form"> <!--FLEX-->
+                <div class="b-startbox__form-name b-startbox__form-item">
+                    Экспресс <br>консультация<br> юриста
+                <form action="">
+                        <div class="b-startbox__form-item">
+                            <input type="text" class="b-startbox__form-phone">
+                        </div>
+                        <div class="b-startbox__form-item">
+                            <textarea name="" id="" class="b-startbox__form-question"></textarea>
+                        </div>
+                        <div class="b-startbox__form-item">
+                            <button class="b-startbox__form-button">Получить консультацию</button>
+                        </div>
+                        <div class="b-startbox__form-item">
+                            <div class="b-startbox__form-agree">
+                                Нажимая на кнопку, я соглашаюсь с условиями<br>
+                                Политики конфиденциальности
                             </div>
                         </div>
-                    </form>
-                </div>
+                </form>
+            </div>
         </div>
     </div>
+</div>
 </body>
 </html>
