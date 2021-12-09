@@ -22,6 +22,14 @@
     text-align: center;
 }
 
+h1 {
+    width: 391px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+}
+
 h2 {
     color: black;
     font-weight: 500;
@@ -56,12 +64,12 @@ h2 {
 }
 
 .b__header_nav_item {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
     list-style-type: none;
     font-style: bold;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .b__header_link {
@@ -121,4 +129,18 @@ h2 {
     max-width: 1280px;
     width: 100%;
     position: relative;
+    color: #ffffff;
+}
+
+.b__startbox_text {
+    position: relative;
+    margin-top: 110px;
+}
+
+.b__startbox_text_item {
+    position: relative;
+    width: 500px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
 }
